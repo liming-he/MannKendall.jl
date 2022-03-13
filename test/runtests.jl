@@ -1,4 +1,4 @@
-using MannKendall
+using MannKendall_XY
 using Test
 
 y = rand(40*12)
