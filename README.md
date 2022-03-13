@@ -1,9 +1,9 @@
-# MannKendall.jl
+# MannKendall_XY.jl  -  forked from mixstam1821/MannKendall.jl
 The non-parametric Mann-Kendall test and Sen's Slope for Julia Programming Language
 
 # Example
 ```julia
-using MannKendall
+using MannKendall_XY
 y = rand(40*12)
 x = collect(1:length(y))
 mann_kendall(x,y)                                                                                                                                              
@@ -15,3 +15,7 @@ Another M-K test is also available (https://github.com/mmhs013/MannKendall.jl), 
 
 # Usage: 
 Since the other M-K package is already registered and take the name "MannKendall", this one is renamed to MannKendall_XY.
+
+To install: 
+
+] add https://github.com/liming-he/MannKendall_XY.jl
