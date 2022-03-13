@@ -11,7 +11,7 @@ mann_kendall(x,y)
 ```
 
 # Note
-Another M-K test is also available (https://github.com/mmhs013/MannKendall.jl), but I like this one for which x is the parameter for time but the vector of time does not have to be in the same interval. 
+Another M-K test is also available (https://github.com/mmhs013/MannKendall.jl), but I like this one for which x is the parameter for time but the vector of time does not have to be in the same interval.  Project.toml is copied from "Balinus" Philippe Roy. 
 
 # Usage: 
 Since the other M-K package is already registered and take the name "MannKendall", this one is renamed to MannKendall_XY.
