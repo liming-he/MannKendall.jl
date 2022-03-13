@@ -1,4 +1,4 @@
-module MannKendall
+module MannKendall_XY
 
 using Statistics, StatsFuns
 
